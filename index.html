@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Deeksha | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">Deeksha<span>.</span></div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn" onclick="toggleMenu()">
+                ☰
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro">Hello, I'm</p>
+
+            <h1>Deeksha Priya</h1>
+
+            <h2>Computer Science Engineering Student</h2>
+
+            <p>
+                Passionate about software development, problem solving,
+                machine learning and building real-world applications.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>Get To Know Me</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <h3>I'm a CSE Student & Developer</h3>
+
+                <p>
+                    I am a Computer Science Engineering student interested
+                    in software development, data structures and algorithms,
+                    web development and machine learning.
+                </p>
+
+                <p>
+                    I enjoy solving programming problems and developing
+                    applications that solve real-world problems using
+                    modern technologies.
+                </p>
+
+            </div>
+
+            <div class="about-info">
+
+                <div class="info-box">
+                    <h3>Education</h3>
+                    <p>BE - Computer Science & Engineering</p>
+                </div>
+
+                <div class="info-box">
+                    <h3>Interests</h3>
+                    <p>Web Development • ML • DSA • Software Development</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+
+        <div class="section-title">
+            <p>What I Work With</p>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+
+                <div class="skill-list">
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <h3>Web Development</h3>
+
+                <div class="skill-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Node.js</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <h3>Backend & Database</h3>
+
+                <div class="skill-list">
+                    <span>Python</span>
+                    <span>FastAPI</span>
+                    <span>Django</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <h3>Machine Learning</h3>
+
+                <div class="skill-list">
+                    <span>TensorFlow</span>
+                    <span>Scikit-learn</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <p>What I've Built</p>
+            <h2>My Projects</h2>
+        </div>
+
+
+        <div class="projects-container">
+
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <p class="project-number">01</p>
+
+                    <h3>Deforestation Monitoring System</h3>
+
+                    <p>
+                        A web-based platform for monitoring deforestation
+                        using satellite imagery, vegetation analysis and
+                        deep learning classification.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>FastAPI</span>
+                        <span>TensorFlow</span>
+                        <span>Google Earth Engine</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <p class="project-number">02</p>
+
+                    <h3>Parkinson's Disease Detection</h3>
+
+                    <p>
+                        A voice-based machine learning system that analyzes
+                        speech features and predicts Parkinson's disease risk
+                        using a Random Forest classifier.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Random Forest</span>
+                        <span>FastAPI</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+
+                <div class="project-content">
+
+                    <p class="project-number">03</p>
+
+                    <h3>Smart Irrigation System</h3>
+
+                    <p>
+                        An IoT-based irrigation system that monitors soil
+                        moisture and automatically controls a water pump
+                        to provide efficient irrigation.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Arduino</span>
+                        <span>IoT</span>
+                        <span>Soil Sensor</span>
+                        <span>Embedded C</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section education-section">
+
+        <div class="section-title">
+            <p>My Academic Journey</p>
+            <h2>Education</h2>
+        </div>
+
+        <div class="education-card">
+
+            <h3>Bachelor of Engineering</h3>
+
+            <h4>Computer Science & Engineering</h4>
+
+            <p>
+                Currently pursuing Bachelor of Engineering in
+                Computer Science and Engineering.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESUME -->
+    <section class="resume-section">
+
+        <h2>Interested in my profile?</h2>
+
+        <p>
+            Check out my resume for more details about my skills,
+            education and experience.
+        </p>
+
+        <a href="assets/resume.pdf"
+           target="_blank"
+           class="btn primary-btn">
+            View Resume
+        </a>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+
+        <div class="section-title">
+            <p>Let's Connect</p>
+            <h2>Contact Me</h2>
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Get In Touch</h3>
+
+                <p>
+                    I'm open to opportunities, collaborations and
+                    interesting projects.
+                </p>
+
+                <p>
+                    📧 your-email@gmail.com
+                </p>
+
+                <p>
+                    📍 Karnataka, India
+                </p>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    rows="6"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Deeksha Priya. All Rights Reserved.
+        </p>
+
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
